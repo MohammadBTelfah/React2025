@@ -2,6 +2,7 @@ import React from 'react';
 import './footer.css';
 export default function Footer() {
     return(
+        <div className='main-content'>
         <div className="footer">
             <div className="col-1">
                 <h3>USEFUL LINKS</h3>
@@ -19,6 +20,7 @@ export default function Footer() {
                 <h3>CONTACT US</h3>
                 <p>123, aydon, irbid, Jordan</p>
             </div>
+        </div>
         </div>
     );
 }

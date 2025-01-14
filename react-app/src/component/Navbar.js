@@ -6,6 +6,8 @@ import search_icon_light from '../assets/search-w.png'
 import search_icon_dark from '../assets/search-b.png'
 import toggle_light from '../assets/night.png'
 import toggle_dark from '../assets/day.png'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Link } from "react-router-dom";
  export default function Navbar({theme,setTheme}) {
     function toggleTheme() {
         theme === 'light' ? setTheme('dark') : setTheme('light');
@@ -14,9 +16,9 @@ import toggle_dark from '../assets/day.png'
        <div className="navbar">
         <img src={theme==='light'? logo_light: logo_dark} alt="" className="logo-icon"/>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About us</a></li>
-            <li><a href="">Contact us </a></li>
+        <li><Link to="/">Home</Link></li>
+    <li><Link to="/aboutus">About us</Link></li>
+    <li><Link to="/contactus">Contact us</Link></li>
         </ul>
         <div className="search-box">
             <input type="text"  placeholder="Search"/>

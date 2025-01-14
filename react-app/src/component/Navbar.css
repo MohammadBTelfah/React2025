@@ -9,8 +9,8 @@
     font-size: 16px;
 }
 
-.logo {
-    width: 100px; /* عرض الشعار المصغر */
+.logo-icon {
+    width: 150px; /* عرض الشعار المصغر */
     cursor: pointer;
 }
 
@@ -40,29 +40,37 @@ a {
 
 .search-box {
     display: flex;
+    height: 40px; /* تقليل الارتفاع */
+    width: 250px; /* زيادة العرض */
     align-items: center;
+    justify-content: space-between; /* محاذاة المحتوى بالتساوي */
     background: #242424;
-    padding: 8px 15px;
-    border-radius: 50px;
+    padding: 0 10px; /* ضبط الحشو */
+    border-radius: 25px; /* تقليل الانحناء */
 }
 
 .search-box input {
-    padding: 4px;
+    flex: 1; /* لجعل الإدخال يملأ المساحة المتبقية */
+    padding: 8px; /* تقليل الحشو داخل الإدخال */
     background: transparent;
     border: 0;
     outline: 0;
     color: #fff;
-    font-size: 16px;
-    max-width: 150px;
+    font-size: 14px; /* تصغير حجم النص */
+    text-align: left; /* محاذاة النص placeholder لليسار */
 }
 
 .search-box input::placeholder {
+    text-align: center;
     color: #fff;
+    font-size: 14px; /* تصغير حجم النص placeholder */
+    font-weight: normal; /* إزالة الوزن العريض */
 }
 
 .search-box img {
-    width: 16px;
-    cursor: pointer;
+    width: 16px; /* تقليل حجم الأيقونة */
+    height: 16px; /* تقليل ارتفاع الأيقونة */
+    fill: #fff; /* الحفاظ على اللون */
 }
 
 .dark .navbar {
@@ -71,13 +79,34 @@ a {
 }
 
 .dark .search-box {
-    background: #fff;
+    background: #fff; /* لون خلفية داكن يتناسب مع التصميم */
+    color: #fff; /* لون النص في مربع البحث */
+    display: flex; /* لضبط توزيع المحتوى */
+    align-items: center; /* توسيط عمودي للعناصر */
+    border-radius: 25px; /* ضبط الزوايا */
+    height: 40px; /* تعديل الارتفاع */
+    width: 250px; /* ضبط العرض */
+    padding: 0 15px; /* تحسين الحشو الداخلي */
 }
 
 .dark .search-box input {
-    background: #222;
+    flex: 1; /* جعل الإدخال يملأ المساحة المتاحة */
+    background: transparent; /* خلفية شفافة */
+    color: #fff; /* لون النص */
+    border: none; /* إزالة الحدود */
+    outline: none; /* إزالة تأثير التركيز */
+    font-size: 16px; /* حجم النص */
+    text-align: left; /* محاذاة النص لليسار */
+    padding: 0; /* إزالة أي حشو إضافي */
 }
 
 .dark .search-box input::placeholder {
-    background: #222;
+    color: #aaa; /* لون واضح للـ placeholder */
+    opacity: 1; /* تأكد من ظهور النص بشكل واضح */
+}
+
+.dark .search-box img {
+    fill: #ffff; /* لون أيقونة البحث */
+    width: 16px; /* حجم الأيقونة */
+    height: 16px; /* حجم الأيقونة */
 }
