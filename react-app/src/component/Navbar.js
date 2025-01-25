@@ -20,6 +20,7 @@ import { Link } from "react-router-dom";
     <li><Link to="/aboutus">About us</Link></li>
     <li><Link to="/contactus">Contact us</Link></li>
     <li><Link to="/Table">Table</Link></li>
+    <li><Link to="/Task">Task</Link></li>
         </ul>
         <div className="search-box">
             <input type="text"  placeholder="Search"/>

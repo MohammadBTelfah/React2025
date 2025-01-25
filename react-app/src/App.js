@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Navbar from './component/Navbar';
 import Footer from './component/footer';
 import Table from './component/Table';
+import Task from './component/Task';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         <Navbar theme={theme} setTheme={setTheme} />
         <Routes>
           <Route path="/table" element={<Table />} />
-        
+        <Route path="/task" element={<Task />} />
         </Routes>
         
       </div>

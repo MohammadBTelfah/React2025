@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { colors } from '@mui/material';
+import './Table.css';
 
 const style = {
     position: 'absolute',
