@@ -10,7 +10,7 @@
 }
 
 .logo-icon {
-    width: 150px; /* عرض الشعار المصغر */
+    width: 150px;
     cursor: pointer;
 }
 
@@ -40,37 +40,37 @@ a {
 
 .search-box {
     display: flex;
-    height: 40px; /* تقليل الارتفاع */
-    width: 250px; /* زيادة العرض */
+    height: 40px;
+    width: 250px;
     align-items: center;
-    justify-content: space-between; /* محاذاة المحتوى بالتساوي */
+    justify-content: space-between;
     background: #242424;
-    padding: 0 10px; /* ضبط الحشو */
-    border-radius: 25px; /* تقليل الانحناء */
+    padding: 0 10px;
+    border-radius: 25px;
 }
 
 .search-box input {
-    flex: 1; /* لجعل الإدخال يملأ المساحة المتبقية */
-    padding: 8px; /* تقليل الحشو داخل الإدخال */
+    flex: 1;
+    padding: 8px;
     background: transparent;
     border: 0;
     outline: 0;
     color: #fff;
-    font-size: 14px; /* تصغير حجم النص */
-    text-align: left; /* محاذاة النص placeholder لليسار */
+    font-size: 14px;
+    text-align: left;
 }
 
 .search-box input::placeholder {
     text-align: center;
     color: #fff;
-    font-size: 14px; /* تصغير حجم النص placeholder */
-    font-weight: normal; /* إزالة الوزن العريض */
+    font-size: 14px;
+    font-weight: normal;
 }
 
 .search-box img {
-    width: 16px; /* تقليل حجم الأيقونة */
-    height: 16px; /* تقليل ارتفاع الأيقونة */
-    fill: #fff; /* الحفاظ على اللون */
+    width: 16px;
+    height: 16px;
+    fill: #fff;
 }
 
 .dark .navbar {
@@ -79,34 +79,34 @@ a {
 }
 
 .dark .search-box {
-    background: #fff; /* لون خلفية داكن يتناسب مع التصميم */
-    color: #fff; /* لون النص في مربع البحث */
-    display: flex; /* لضبط توزيع المحتوى */
-    align-items: center; /* توسيط عمودي للعناصر */
-    border-radius: 25px; /* ضبط الزوايا */
-    height: 40px; /* تعديل الارتفاع */
-    width: 250px; /* ضبط العرض */
-    padding: 0 15px; /* تحسين الحشو الداخلي */
+    background: #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    height: 40px;
+    width: 250px;
+    padding: 0 15px;
 }
 
 .dark .search-box input {
-    flex: 1; /* جعل الإدخال يملأ المساحة المتاحة */
-    background: transparent; /* خلفية شفافة */
-    color: #fff; /* لون النص */
-    border: none; /* إزالة الحدود */
-    outline: none; /* إزالة تأثير التركيز */
-    font-size: 16px; /* حجم النص */
-    text-align: left; /* محاذاة النص لليسار */
-    padding: 0; /* إزالة أي حشو إضافي */
+    flex: 1;
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-align: left;
+    padding: 0;
 }
 
 .dark .search-box input::placeholder {
-    color: #aaa; /* لون واضح للـ placeholder */
-    opacity: 1; /* تأكد من ظهور النص بشكل واضح */
+    color: #aaa;
+    opacity: 1;
 }
 
 .dark .search-box img {
-    fill: #ffff; /* لون أيقونة البحث */
-    width: 16px; /* حجم الأيقونة */
-    height: 16px; /* حجم الأيقونة */
+    fill: #ffff;
+    width: 16px;
+    height: 16px;
 }
