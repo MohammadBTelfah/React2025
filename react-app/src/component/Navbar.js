@@ -6,7 +6,6 @@ import search_icon_light from '../assets/search-w.png'
 import search_icon_dark from '../assets/search-b.png'
 import toggle_light from '../assets/night.png'
 import toggle_dark from '../assets/day.png'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Link } from "react-router-dom";
  export default function Navbar({theme,setTheme}) {
     function toggleTheme() {
@@ -21,6 +20,7 @@ import { Link } from "react-router-dom";
     <li><Link to="/contactus">Contact us</Link></li>
     <li><Link to="/Table">Table</Link></li>
     <li><Link to="/Task">Task</Link></li>
+    <li><Link to="/Task2">Cards</Link></li>
         </ul>
         <div className="search-box">
             <input type="text"  placeholder="Search"/>

@@ -4,6 +4,7 @@ import Navbar from './component/Navbar';
 import Footer from './component/footer';
 import Table from './component/Table';
 import Task from './component/Task';
+import Task2 from './component/task2';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
         <Routes>
           <Route path="/table" element={<Table />} />
         <Route path="/task" element={<Task />} />
+        <Route path="/task2" element={<Task2 />} />
         </Routes>
-        
+        <Footer />
       </div>
     </Router>
   );
