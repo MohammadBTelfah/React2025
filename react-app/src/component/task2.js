@@ -29,17 +29,17 @@ export default function Task2() {
       {
           image: "https://www.w3schools.com/w3images/lights.jpg",
           price: 100,
-          paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          paragraph: "Admire the shimmering aurora borealis dancing across the Arctic night sky in a spectacular light show",
       },
       {
           image: "https://www.w3schools.com/w3images/nature.jpg",
           price: 200,
-          paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          paragraph: "Wander through sun-dappled forests where ancient trees whisper secrets of the wilderness.",
       },
       {
           image: "https://www.w3schools.com/w3images/fjords.jpg",
           price: 300,
-          paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          paragraph: "Conquer pristine alpine slopes where powdery snow blankets majestic mountain peaks.",
       },
       {
           image: "https://www.w3schools.com/w3images/mountains.jpg",
